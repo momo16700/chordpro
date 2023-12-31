@@ -7,6 +7,7 @@ use ExtUtils::MakeMaker 7.24;	# comes with 5.26
 
 my $master = 'lib/ChordPro/Version.pm';
 my $version = MM->parse_version($master);
+$version .= ".1";		# CPAN fix
 $master =~ s;/Version;;;
 
 my @bins = qw( chordpro wxchordpro );
