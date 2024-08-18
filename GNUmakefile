@@ -1,6 +1,4 @@
-#! /bin/make -f
-
-################ Pass-through ################
+#! /bin/ -f make
 
 .PHONY : all
 all :	Makefile cleanup
